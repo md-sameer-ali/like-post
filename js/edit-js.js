@@ -291,6 +291,7 @@ jQuery(function ($) {
         $('.arrow-area span').html(function(i, val) { return val*1-1 });
         Materialize.toast('You have clicked me!', 2000)
     });
+
 });
 // const likeBtn = document.querySelector(".up-arrow");
 // const likeBtn2 = document.querySelector(".down-arrow");
@@ -405,6 +406,8 @@ $(document).ready(function () {
     $(".share-btn-area .change_icon").click(function () {
         $(this).parent().toggleClass("share-active");
         $('.click-div').css('display', 'block');
+        $('.change_icon span').html(function(i, val) { return val*1+1 });
+        Materialize.toast('You have clicked me!', 2000)
     });
 });
 // $(document).ready(function () {
