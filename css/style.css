@@ -3197,7 +3197,6 @@ p.model_into {
 
 .nav-area {
     width: 270px;
-    height: 100%;
     position: absolute;
     margin: 0 auto;
     /* background-color: #ffffff; */
@@ -6154,6 +6153,9 @@ i.fa-solid.fa-heart.on-icon {
 .change-on .fa-light.fa-heart{
     visibility: hidden;
 }
+.change_icon span{
+    padding-right: 5px;
+}
 
 
 /* ====== Body Style End ======= */
@@ -6191,9 +6193,7 @@ i.fa-solid.fa-heart.on-icon {
 }
 
 @media only screen and (max-width:1199px) {
-    .blog-details-body-main {
-        margin-left: 325px;
-    }
+   
 
     .b_details_right .social_tag a {
         font-size: 12px;
@@ -6346,9 +6346,9 @@ i.fa-solid.fa-heart.on-icon {
 }
 
 @media (max-width: 767px) {
-    body {
+    /* body {
         padding-top: 60px;
-    }
+    } */
 
     header {
         padding: 9px 0;
@@ -6513,7 +6513,9 @@ i.fa-solid.fa-heart.on-icon {
 
     .blogdetails_body .body_wrapper {
         margin-bottom: 30px;
+        margin-top: 0;
     }
+    
 
     .b_details_right h2:after {
         left: 4%;
@@ -6572,16 +6574,11 @@ i.fa-solid.fa-heart.on-icon {
         padding: 0 10px 0 8px;
     }
 
-    .nav-area {
-        left: -270px;
-        top: 0;
-        transition: all 0.5s;
-    }
 
-    .log-new {
+    /* .log-new {
         display: flex;
         align-items: center;
-    }
+    } */
 
     .log-in-div {
         display: flex;
@@ -7241,9 +7238,8 @@ i.fa-solid.fa-heart.on-icon {
 
 
     /* NEW-DESIGN */
-
-    body {
-        padding-top: 43px;
+    .new-single {
+        height: 340px!important;
     }
 
     .container {
